@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Web Moderne</title>
     <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -130,7 +131,7 @@
             <li><a href="#accueil">Accueil</a></li>
             <li><a href="#a-propos">À propos</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://buymeacoffee.com/codeb07" target="_blank" id="coffe"><img src="buymeacoffe.jpg"/></a></li>
+            <li><a href="https://buymeacoffee.com/codeb07" target="_blank" id="coffe"><img src="buymeacoffe.jpg" /></a></li>
         </ul>
     </nav>
 </header>
@@ -144,14 +145,29 @@
     </div>
 </section>
 
-
-</div>
+<!-- Emplacement pour la publicité -->
+<section class="section">
+    <h2>Publicité</h2>
+    <div class="adsense">
+        <!-- Code d'annonce Google AdSense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXX"  <!-- Remplace "XXXXXXXXXXXXXX" par ton ID AdSense -->
+             data-ad-slot="XXXXXXX"                 <!-- Remplace "XXXXXXX" par ton slot ID -->
+             data-ad-format="auto"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</section>
 
 <footer>
     <p>&copy; 2024 Mon Site Moderne. Tous droits réservés.</p>
 </footer>
+
 <script>
-const agents = [
+ const agents = [
     { nom: 'Brimstone', image: 'brimstone.jpg' },
     { nom: 'Viper', image: 'viper.jpg' },
     { nom: 'Omen', image: 'omen.jpg' },
